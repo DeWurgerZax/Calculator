@@ -1,0 +1,76 @@
+html, body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-color: hsl(0deg 10% 80%);
+  box-shadow: inset 0px 0px 30px black;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#wrap{
+  display: flex;
+  height: 465px;
+  width: 275px;
+  border: 5px solid black;
+  border-radius: 15px;
+  flex-direction: column;
+  box-shadow: inset 0px 0px 15px black;
+  background-color: hsl(0deg 20% 90%);
+}
+#result{
+  display: flex;
+  height: 25%;
+  width: 100%;
+  box-sizing: border-box;
+  align-items: flex-end;
+  justify-content: flex-end;
+  font-size: 40px;
+  transform: translate(-26px, -15px);
+}
+#functional{
+  display: flex;
+  height: 75%;
+  width: 100%;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 1px;
+  background-color: hsl(0deg 0% 80%);
+  border-radius: 15px;
+}
+.btnNum{
+  display: inline-flex;
+  height: 68px;
+  width: 67px;
+  background-color: hsl(0deg 0% 50%);
+  border-radius: 12px;
+  box-sizing: border-box;
+  font-size: 25px;
+  align-items: center;
+  justify-content: center;
+  color: hsl(0deg 30% 30%);
+  cursor: pointer;
+  user-select: none;
+  transition: 100ms;
+}
+.btnBig{
+  box-sizing: border-box;
+  width: 135px;
+}
+.btnNum:hover{
+  background-color: hsl(0deg 20% 50%);
+}
+.btnClick{
+  box-shadow: inset 0px 0px 2px 5px hsl(0deg 20% 80%);
+}
+a{
+  position: absolute;
+  color: hsl(0deg 20% 50%);
+  text-decoration: none;
+  font-size: 30px;
+  bottom: 5%;
+}
